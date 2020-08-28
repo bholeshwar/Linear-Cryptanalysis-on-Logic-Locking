@@ -1,0 +1,5 @@
+The code for generating the linear approximation table is in the file lat.hs in which genc is encoded circuit and gout is the circuit with the correct keys
+The correct key for the given circuit is (k1,k2,k3,k4) = 1011 
+In the file lat.txt the linear approximation table is given and we have made different functions according to the equations of linear approximation 
+(for bias values 8,7,-7 ) the functions probb1,probb3,probca,proba4b2 can be used to get the probability of the keys to be the correct keys , we have used 20 test cases (for circuit having 5 inputs and 3 outputs and 4 keys )
+for the ighest bias case we got 2 answers with equal probability -- 0001 and 0011 for the rest of the cases we got more than one keys having the same probability .
